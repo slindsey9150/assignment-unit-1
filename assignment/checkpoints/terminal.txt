@@ -9,13 +9,14 @@ cd ..
 # 4 - What is a quick way to create a new folder?
 mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-
+ls in an empty folder would not  show anything, but in a folder with content it will list everything within
 # 6 - What is a quick way to create a new file?
 touch
 # 7 - Run 'git --version' in your terminal. What is the output?
 git version 2.33.0
 # 8 - Why would you run the command 'git status'?
-
+To see what has been commited and what hasn't 
 # 9 - What does the command 'git add .' do?
-
+stage the files in the current directory to be commited
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin main 
